@@ -133,7 +133,7 @@ class BasicGame:
 		print("  a b c d e f g h")
 
 
-	def __init__(self, white_player, black_player, arm, debug=False):
+	def __init__(self, white_player, black_player, debug=False):
 		# Ensure both players derive from BasePlayer
 		if not isinstance(white_player, BasePlayer) or not isinstance(black_player, BasePlayer):
 			print("Both player objects must derive from BasePlayer.")
@@ -142,8 +142,6 @@ class BasicGame:
 		self.white_player = white_player
 		self.black_player = black_player
 		self.turn = white_player
-
-		self.arm = arm
 
 		self.chess_board =["r", "n", "b", "q", "k", "b", "n", "r", 
 						   "p", "p", "p", "p", "p", "p", "p", "p", 

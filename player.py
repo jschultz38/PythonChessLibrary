@@ -17,12 +17,13 @@ class BasePlayer:
 		"""Method Documentation"""
 		return
 
-	def __init__(self, debug=False, engine_path=None, client=None):
-		self.debug = debug
-		self.engine_path = engine_path
-		self.client = client
+	def __init__(self, *args, **kwargs):
+		self.debug = args[0]
+
+		self.__dict__.update(kwargs)
 
 		self.init()
+		
 
 class OnlinePlayer(BasePlayer):
 	def get_move(self, game):
