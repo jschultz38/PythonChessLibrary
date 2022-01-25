@@ -69,7 +69,6 @@ class BasicGame:
 		row_to = (int(m[3])-4)*-1 + 4
 		index_to = row_to*8 + col_to
 
-		print(index_from, " ", index_to)
 		## Move the piece
 		moved_piece = (self.chess_board[index_from], index_from)
 		taken_piece = (self.chess_board[index_to], index_to)
