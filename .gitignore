@@ -1,4 +1,5 @@
-main.py
 __pycache__/*
+PythonChessLibrary/__pycache__/
+main.py
 dist/*
 PythonChessLibrary.egg-info/*

@@ -1,6 +1,6 @@
 from enum import Enum
 from subprocess import Popen, PIPE, STDOUT
-from tools import *
+from PythonChessLibrary.tools import *
 import re, random, sys, berserk
 
 

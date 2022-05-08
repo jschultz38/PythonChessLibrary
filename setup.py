@@ -10,7 +10,7 @@ if os.path.exists('README.md'):
 # https://pythonhosted.org/setuptools/setuptools.html#id7
 setup(
     name='PythonChessLibrary',
-    version='0.0.2',
+    version='0.0.3',
     packages=find_packages(),
     author="Jarrett S",
     author_email="jschultz38@gatech.edu",

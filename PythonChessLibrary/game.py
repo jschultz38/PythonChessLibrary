@@ -1,7 +1,7 @@
 from subprocess import Popen, PIPE, STDOUT
-from tools import dprint
 import sys
-from player import *
+from PythonChessLibrary.tools import dprint
+from PythonChessLibrary.player import *
 
 # Dependencies to install
 from Chessnut import Game
