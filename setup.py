@@ -1,6 +1,6 @@
 #How to send that bitch over to pip: https://dzone.com/articles/executable-package-pip-install
 
-from setuptools import setup
+from setuptools import setup, find_packages
 import os
 
 long_description = 'Simple library to add relevant classes for a chess game.'
@@ -11,12 +11,12 @@ if os.path.exists('README.md'):
 setup(
     name='PythonChessLibrary',
     version='0.0.2',
-    packages=['PythonChessLibrary'],
+    packages=find_packages(),
     author="Jarrett S",
     author_email="jschultz38@gatech.edu",
     description="Simple library to add relevant classes for a chess game.",
     long_description=long_description,
     license="LICENSE",
     keywords="chess",
-    url="https://github.com/jschultz38/Chessnut",
+    url="https://github.com/jschultz38/PythonChessLibrary",
 )
