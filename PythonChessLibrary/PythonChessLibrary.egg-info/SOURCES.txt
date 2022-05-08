@@ -1,8 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-setup.cfg
-PythonChessLibrary/PythonChessLibrary.egg-info/PKG-INFO
-PythonChessLibrary/PythonChessLibrary.egg-info/SOURCES.txt
-PythonChessLibrary/PythonChessLibrary.egg-info/dependency_links.txt
-PythonChessLibrary/PythonChessLibrary.egg-info/top_level.txt
